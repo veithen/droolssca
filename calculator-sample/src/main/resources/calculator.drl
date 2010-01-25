@@ -1,0 +1,17 @@
+import calculator.AddRequest
+import calculator.AddResponse
+
+dialect "mvel"
+
+rule "Add"
+  when
+    request : AddRequest()
+  then
+    response = new AddResponse()
+    response.sum = request.value1 + request.value2
+    insert(response)
+end
+
+query "add"
+  response : AddResponse()
+end

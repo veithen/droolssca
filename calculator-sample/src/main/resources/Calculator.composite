@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<composite xmlns="http://www.osoa.org/xmlns/sca/1.0"
+           targetNamespace="http://sample"
+           xmlns:sample="http://sample"
+           name="Calculator">
+    <component name="CalculatorServiceComponent">
+		<implementation.drools name="CalculatorService" interface="calculator.Calculator" xmlns="http://code.google.com/p/droolssca/">
+			<resource location="calculator.drl" type="DRL"/>
+		</implementation.drools>
+    </component>
+</composite>

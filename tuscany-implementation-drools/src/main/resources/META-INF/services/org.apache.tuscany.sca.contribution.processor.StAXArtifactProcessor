@@ -1,0 +1,1 @@
+com.google.code.droolssca.xml.DroolsImplementationProcessor;qname=http://code.google.com/p/droolssca/#implementation.drools,model=com.google.code.droolssca.DroolsImplementation,factory=com.google.code.droolssca.DroolsImplementationFactory
