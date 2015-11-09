@@ -1,0 +1,1 @@
+This project provides a Drools implementation type for Apache Tuscany. This allows to wrap business rules in a service component and makes it easy to build Drools based decision services.
